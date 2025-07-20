@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PetMed - Quality Pet Medicines</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; margin:0; background:#f5f5f5; color:#333; }
+    header { background:#4caf50; color:white; padding:40px 20px; text-align:center; }
+    nav { background:#388e3c; text-align:center; padding:10px 0; }
+    nav a { color:white; margin:0 15px; text-decoration:none; font-weight:bold; }
+    section { padding:40px 20px; max-width:1100px; margin:auto; }
+    .products { display:flex; flex-wrap:wrap; gap:20px; justify-content:center; }
+    .product-card { background:white; border:1px solid #ddd; border-radius:10px; padding:20px; width:300px; box-shadow:0 4px 10px rgba(0,0,0,0.05); transition:transform 0.3s; }
+    .product-card:hover { transform:translateY(-5px); }
+    .product-card img { width:100%; border-radius:8px; }
+    .product-card h3 { margin-top:15px; }
+    footer { background:#2e7d32; color:white; text-align:center; padding:30px 20px; margin-top:40px; }
+    @media (max-width:768px) { .product-card { width:100%; } }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>PetMed</h1>
+    <p>Quality Health Products for Your Pets</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to PetMed</h2>
+    <p>We specialize in trusted veterinary products for dogs, cats, and small animals. No prescriptions needed—just quality care for your furry friends.</p>
+  </section>
+
+  <section id="products">
+    <h2>Featured Products</h2>
+    <div class="products">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/300x200?text=Flea+%26+Tick+Drops" alt="Flea & Tick Drops">
+        <h3>Flea & Tick Drops</h3>
+        <p>Fast-acting and long-lasting protection for dogs and cats.</p>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/300x200?text=Joint+Care+Tablets" alt="Joint Care Tablets">
+        <h3>Joint Care Tablets</h3>
+        <p>Support your pet’s mobility and joint health with daily supplements.</p>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/300x200?text=De-worming+Syrup" alt="De-worming Syrup">
+        <h3>De‑worming Syrup</h3>
+        <p>Gentle and effective formula for puppies, kittens, and small animals.</p>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/300x200?text=Multivitamin+Booster" alt="Multivitamin Booster">
+        <h3>Multivitamin Booster</h3>
+        <p>A complete daily dose of essential nutrients to keep pets healthy.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Jiaganj, Murshidabad</p>
+    <p>📞 7001856455</p>
+    <p>✉️ soumikhaldar9@gmail.com</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 PetMed. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
